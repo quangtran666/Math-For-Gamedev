@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://cinh4lyk6o4eh"]
 
-[ext_resource type="Script" uid="uid://cl38vgkk7aih3" path="res://labs/vector/BombRadius.cs" id="1_eoept"]
+[ext_resource type="Script" uid="uid://cl38vgkk7aih3" path="res://labs/vector/BombRadius/BombRadius.cs" id="1_eoept"]
 [ext_resource type="Texture2D" uid="uid://deayaqdh15eqo" path="res://assets/bomb_character_o_idle.png" id="2_7lmaw"]
-[ext_resource type="Script" uid="uid://dfrkoa1rmhgwu" path="res://labs/vector/CharacterMovement.cs" id="2_8c0y8"]
-[ext_resource type="Script" uid="uid://ci4q58b7nol0l" path="res://labs/vector/Dummy.cs" id="4_s4q6n"]
+[ext_resource type="Script" uid="uid://dfrkoa1rmhgwu" path="res://labs/vector/BombRadius/CharacterMovement.cs" id="2_8c0y8"]
+[ext_resource type="Script" uid="uid://ci4q58b7nol0l" path="res://labs/vector/BombRadius/Dummy.cs" id="4_s4q6n"]
 [ext_resource type="Texture2D" uid="uid://fjutm73cncy6" path="res://assets/Dummy.png" id="4_vs8ki"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7lmaw"]
