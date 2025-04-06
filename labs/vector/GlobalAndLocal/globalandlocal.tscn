@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://blp8ldhb7vhem"]
+
+[ext_resource type="Script" uid="uid://drfe61gn77yj" path="res://labs/vector/GlobalAndLocal/GlobalAndLocal.cs" id="1_ib6hg"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node2D" type="Node2D" parent="." node_paths=PackedStringArray("Node1", "Node2")]
+position = Vector2(155, 104)
+script = ExtResource("1_ib6hg")
+Node1 = NodePath("Node 1")
+Node2 = NodePath("Node 2")
+
+[node name="Node 1" type="Node2D" parent="Node2D"]
+position = Vector2(135, 153)
+
+[node name="Node 2" type="Node2D" parent="Node2D"]
+position = Vector2(252, 155)
